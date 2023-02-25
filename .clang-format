@@ -1,0 +1,14 @@
+---
+# We'll use defaults from the Google style.
+BasedOnStyle: Google
+---
+Language: Cpp
+# Force pointers to the type for C++.
+DerivePointerAlignment: false
+PointerAlignment: Left
+AlignAfterOpenBracket: AlwaysBreak
+---
+Language: Proto
+# Don't format .proto files.
+DisableFormat: true
+...
